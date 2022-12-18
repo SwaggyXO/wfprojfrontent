@@ -1,0 +1,34 @@
+<div
+class="listItem"
+(mouseenter)="isHovered=true"
+(mouseleave)="isHovered=false"
+[style.left]="(isHovered===true) ? (index * 225 - 50 + index * (2.5)):10"
+>
+<img
+  src="https://static.wikia.nocookie.net/jamescameronsavatar/images/b/b7/Avatar_The_Way_of_Water_merdeces_promo2.jpg"
+  alt=""
+/>
+<h1 color="white">{{index * 225 - 50 + index * (2.5)}}</h1>
+
+  
+    <div class="itemInfo">
+      <div class="icons">
+        <!-- <PlayArrow class="icon" />
+        <Add class="icon" />
+        <ThumbUpAltOutlined class="icon" />
+        <ThumbDownOutlined class="icon" /> -->
+      </div>
+      <div class="itemInfoTop">
+        <span>1 hour 14 mins</span>
+        <span class="limit">+16</span>
+        <span>1999</span>
+      </div>
+      <div class="desc">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Praesentium hic rem eveniet error possimus, neque ex doloribus.
+      </div>
+      <div class="genre">Action</div>
+    </div>
+  
+
+</div>
