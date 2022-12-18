@@ -3,6 +3,7 @@
 1) All the styling is done in scss, its like css only but with some extra features, you can write normal css inside that too
 2) 3 pages are remaining at this moment, the movie booking page, theatre seats page, login page
 3) you can make components inside a folder using the command ng g c pages/movieInfo
+4) connecting the frontend with API is also remaining, please look into it <3
 
 # Frontend
 
